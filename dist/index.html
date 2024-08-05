@@ -123,13 +123,6 @@
                             <div class="nya-title nk-ibx-action-item progress-rating"><em class="icon ni ni-info"></em><span class="nk-menu-text font-weight-bold">工具说明</span></div>
                             <div class="accordion-inner">
                                 <div class="title"><span class="dot dot-lg sq" data-bg="#9cabff" style="background: rgb(156, 171, 255);"></span>&nbsp;<span>虽支持可自定义地址 但无法请求跨域链接</span></div>
-                                <div class="title"><span class="dot dot-lg sq" data-bg="#ffa9ce" style="background: rgb(255, 169, 206);"></span>&nbsp;<span>速度不满意？请尝试手动切换节点，加大运行线程</span></div>
-                                <div class="title"><span class="dot dot-lg sq" data-bg="#f98c45" style="background: rgb(249, 140, 69);"></span>&nbsp;<span>消耗机场流量，建议使用海外节点，速度可能会更快</span></div>
-                                <div class="title"><span class="dot dot-lg sq" data-bg="#b8acff" style="background: rgb(184, 172, 255);"></span>&nbsp;<span>点击总流量板块可设置流量上限，以防止流量丢失，为你的流量保驾护航</span></div>
-                                <div class="title"><span class="dot dot-lg sq" data-bg="#8feac5" style="background: rgb(143, 234, 197);"></span>&nbsp;<span>手机套餐内含头条系、阿里系、百度系等定向流量，填写免流量资源地址或选择对应定向包的测速节点，可消耗定向流量(非百分百准确)</span></div>
-                                <div class="title"><span class="dot dot-lg sq" data-bg="#f9db7b" style="background: rgb(249, 219, 123);"></span>&nbsp;<span>手机端挂后台一段时间后停止运行，请让当前浏览器页面或APP保持在前台运行或锁住当前程序，避免被手机自动清理</span></div>
-                            </div>
-                        </div>
                     </div>
                     <div class="card card-preview">
                         <div class="card-inner mt-3">
@@ -159,7 +152,7 @@
                             </div>
                             <div class="form-group"><label class="form-label">线程</label>
                                 <div class="form-control-wrap number-spinner-wrap"><button onclick="var thread=document.getElementById('thread');if(thread.value!=thread.min)thread.value--;" class="btn btn-icon btn-outline-primary number-spinner-btn number-minus"><em
-                      class="icon ni ni-minus"></em></button> <input onchange="var self= document.getElementById('thread');if(self.value<self.min)self.value=self.min;if(self.value>self.max)self.value=self.max" id='thread' type="number" min="1" max="32"
+                      class="icon ni ni-minus"></em></button> <input onchange="var self= document.getElementById('thread');if(self.value<self.min)self.value=self.min;if(self.value>self.max)self.value=self.max" id='thread' type="number" min="8" max="32"
                                         value=1 class="form-control number-spinner"> <button onclick="var thread=document.getElementById('thread');if(thread.value!=thread.max)thread.value++;" class="btn btn-icon btn-outline-primary number-spinner-btn number-plus"><em class="icon ni ni-plus"></em></button>
                                 </div>
                             </div>
